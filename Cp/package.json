@@ -1,5 +1,5 @@
 {
-  "name": "Cat",
+  "name": "Cp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^18.7.23"
+  "dependencies": {
+    "@types/node": "^18.8.1"
   }
 }
