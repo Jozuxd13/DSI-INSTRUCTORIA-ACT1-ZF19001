@@ -4,5 +4,5 @@ import * as fs from 'fs';
 const archivoporleer = process.argv[2]
 //extrae la data en una variable
 const archivoleido = fs.readFileSync(archivoporleer);
-//imprime la variable con la info del documento
+//imprime la variable con la informacion del documento
 console.info(archivoleido.toString());
