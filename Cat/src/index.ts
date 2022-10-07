@@ -1,8 +1,8 @@
 //Herramienta para leer
 import * as fs from 'fs';
 //Agregando una variable con el archivo a leer
-let archivoporleer: string = "archivoporleer.txt"
+const archivoporleer = process.argv[2]
 //extrae la data en una variable
-let archivoleido = fs.readFileSync(archivoporleer, 'utf8');
+const archivoleido = fs.readFileSync(archivoporleer);
 //imprime la variable con la info del documento
-console.log(archivoleido);
+console.info(archivoleido.toString());
